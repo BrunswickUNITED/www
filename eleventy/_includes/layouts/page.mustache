@@ -11,7 +11,41 @@
     <title>BrunswickUNITED - {{title}}</title>
 </head>
 <body>
-{{{ content }}}
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <div class="mx-4">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container-fluid px-0">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggle" aria-controls="navbar-toggle" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar-toggle">
+                    <a class="navbar-brand" href="#"><img src="/img/logo.svg" alt="BrunswickUNITED logo" width="128"></a>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-fill w-100">
+                        <li class="nav-item">
+                            <a class="nav-link {{{homeNavLink}}}" aria-current="page" href="/index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link {{{aboutNavLink}}}" href="/about.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link {{directoryNavLink}}" href="/directory.html">Directory</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link {{getInvolvedNavLink}}" href="/get-involved.html">Get Involved</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="mx-4">
+            {{{ content }}}
+        </div>
+
+        <footer class="w-100 text-center">
+            Footer with social media icons
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </div>
 </body>
 </html>
