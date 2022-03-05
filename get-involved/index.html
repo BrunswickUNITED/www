@@ -37,7 +37,7 @@
                     <a class="navbar-brand" href="#"><img src="/img/logo.svg" alt="BrunswickUNITED logo" width="128"></a>
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-fill w-100">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="/">Home</a>
+                            <a class="nav-link " aria-current="page" href="/">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link " href="/about/">About Us</a>
@@ -46,7 +46,7 @@
                             <a class="nav-link " href="/directory/">Directory</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " href="/get-involved/">Get Involved</a>
+                            <a class="nav-link active" href="/get-involved/">Get Involved</a>
                         </li>
                     </ul>
                 </div>
@@ -62,16 +62,49 @@
             </div>
         </div>
     </div>
-    <div class="row mt-4">
+    <div class="row">
         <div class="col-12 px-0">
-            <!--            <h3>Calendar of Events</h3>-->
-            <iframe src="https://calendar.google.com/calendar/embed?src=1pjkton5gc7asqt24bh8g9jjqo%40group.calendar.google.com&ctz=America%2FNew_York"
-                    style="border: 0" width="800" height="200" frameborder="0" scrolling="no"></iframe>
+            <h3>Get Involved</h3>
+            <div class="border" style="border-width: 4px !important">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
         </div>
     </div>
     <div class="row mt-4">
         <div class="col-12 px-0">
-            <h3>Brunswick News</h3>
+            <h3>Contact Us</h3>
+            <form action="https://formspree.io/f/moqrwkkw" id="contact" method="post">
+                <div class="mb-3">
+                    <label class="form-label" for="name">Name</label>
+                    <input class="form-control" id="name" name="name" type="text" placeholder="Name"/>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="email">Email Address</label>
+                    <input class="form-control" id="email" name="email" type="email" placeholder="Email Address"/>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="message">Message (required)</label>
+                    <textarea class="form-control" id="message" name="message" type="text" placeholder="Message"
+                              required
+                              style="height: 10rem;"></textarea>
+                </div>
+                <div class="d-grid">
+                    <button class="btn btn-primary btn-lg" type="submit">Submit</button>
+                </div>
+            </form>
         </div>
     </div>
 </div>
