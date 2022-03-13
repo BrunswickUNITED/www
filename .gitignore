@@ -1,3 +1,6 @@
+/data/
+/js/
 *.log
 /node_modules/
 /_site/
+/.towndex/
